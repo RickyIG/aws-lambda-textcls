@@ -15,8 +15,8 @@ from sklearn.cluster import KMeans , AgglomerativeClustering, DBSCAN
 from sklearn.metrics import silhouette_score
 from nltk.tokenize import word_tokenize
 from string import punctuation
-from unidecode import unidecode
-from contractions import fix
+# from unidecode import unidecode
+# from contractions import fix
 from nltk.util import ngrams
 from sklearn.feature_extraction.text import TfidfVectorizer,CountVectorizer
 from nltk.stem import LancasterStemmer, WordNetLemmatizer
